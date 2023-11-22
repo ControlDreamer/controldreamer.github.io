@@ -1,0 +1,108 @@
+# 1) Animals
+- source_prompt: A high-resolution rendering of a Shiba Inu, 3d asset
+  target_prompts:
+    - A white tiger, super detailed, best quality, 4K, HD
+
+- source_prompt: A high-resolution photo of a frog, 3d asset
+  target_prompts:
+    - A high-resolution photo of a toad, 3d asset
+
+- source_prompt: A high-resolution photo of a British Shorthair, 3d asset
+  target_prompts:
+    - A highly-detailed photo of a lioness, 4K, HD
+
+- source_prompt: A bald eagle carved out of wood 
+  target_prompts:
+    - A highly-detailed portrait of an Albatross
+
+- source_prompt: A high-resolution photo of a corgi, 3d asset
+  target_prompts:
+    - A highly-detailed photo of a corgi wearing sunglasses, 4K, HD
+    - A corgi wearing a scarf, 4K, HD
+    - A corgi wearing a winter hat, 4K, HD
+
+# progressive editting
+- source_prompt: A high-resolution photo of a corgi, 3d asset
+  target_prompts:
+    - A corgi wearing a scarf, 4K, HD
+
+- source_prompt: A corgi wearing a scarf, 4K, HD
+  target_prompts:
+    - A highly-detailed photo of a corgi wearing sunglasses, 4K, HD
+
+- source_prompt: A cute whale, plush toy, ultra realistic, 4K, HD
+  target_prompts:
+    - A DSLR photo of a nice submarine
+
+- source_prompt: A high-resolution photo of a frog, 3d asset
+  target_prompts:
+    - A high-resolution photo of a toad, 3d asset
+
+# 2) Characters
+- source_prompt: A high-resolution rendering of a Hulk, 3d asset
+  target_prompts:
+    - A high-resolution rendering of an Iron Man, 3d asset
+    - A high-resolution rendering of a Gundam, 3d asset
+    - A highly-detailed 3d rendering of a Captain America
+    - A highly-detailed photo of a Spider-Man, 4K, HD
+    - A highly-detailed 3d rendering of a Superman
+    - A highly-detailed 3d rendering of a Thanos wearing the infinity gauntlet
+    - A highly-detailed photorealistic 3d rendering of a Thor wearing the Asgardian Armor
+    - A 4K highly-detailed photo of King Kong yelling, in Godzilla vs. Kong movie
+    - Highly-detailed 3D rendering of a Gamora wearing Thanos' Endgame Armor
+    - Renaissance sculpture of Michelangelo's David, Masterpiece
+
+# 3) Wilds
+- source_prompt: Battletech Zeus with a sword!, tabletop, miniature, battletech, miniatures, wargames, 3d asset
+  target_prompts:
+    - A high-resolution rendering of a Gundam, 3d asset
+    - Optimus Prime fighting, super detailed, best quality, 4K, HD
+
+- source_prompt: airplane, fighter, steampunk style, ultra realistic, 4k, HD
+  target_prompts:
+    - A highly-detailed 3d rendering of a fighter jet
+
+- source_prompt: higly detailed, majestic royal tall ship, realistic painting, by Charles Gregory Artstation and Antonio Jacobsen and Edward Moran, intricated details, blender, hyperrealistic, 4k, HD
+  target_prompts:
+    - A highly-detailed rendering of a Black Pearl pirate ship, 4K, HD
+
+- source_prompt: Little italian town, hand-painted style
+  target_prompts:
+    - Little korean town, hand-painted style
+
+- source_prompt: A high-resolution photo of a monarch
+  target_prompts:
+    - A highly-detailed photo of a blue morpho butterfly, 4K, HD
+
+- source_prompt: A rendering of a beautiful mountain landscape celestial sunset
+  target_prompts:
+    - High-resolution landscape photo of a mountain in the winter
+    - High-resolution landscape photo of a mountain in the fall
+
+
+# 4) General
+- source_prompt: An astronaut riding a horse
+  target_prompts:
+    - A high-resolution rendering of an armored cavalry medieval knight, 3d asset
+
+- source_prompt: A high-resolution 3d rendering of a futuristic motorcycle
+  target_prompts:
+    - A DSLR photo of a motorcycle with TRON wheels
+
+# multi-composition
+- source_prompt: a zoomed out DSLR photo of a baby bunny sitting on top of a stack of pancakes
+  target_prompts:
+    - A highly-detailed photo of a metal bunny sitting on top of a red velvet cake
+
+# logo carving - source from fantasia3D
+- source_prompt: 3d rendering of a mug of hot chocolate with whipped cream
+  target_prompts:
+    - A highly-detailed photo of a white Starbucks Logo Mug, 4K, HD
+
+- source_prompt: A highly detailed stone bust of Theodoros Kolokotronis
+  target_prompts:
+    - A highly detailed stone bust of Darth Vader
+
+
+
+
