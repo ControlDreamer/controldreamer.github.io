@@ -46,8 +46,52 @@
                 <h1 class="text-center"><img src="./ControlDreamer.png" alt="My Image" width="40%">
         </div>
 
+        <div class="container" style="max-width: 980px; margin-bottom: 20px;">
+            <div class="row authors">
+                <div class="col">
+                    <h5 class="text-center"><a class="text-center" href="https://oyt9306.github.io/">Yeongtak Oh*<sup>1</sup> </a></h5>
+                </div>
+                <div class="col">
+                    <h5 class="text-center"><a href="https://scholar.google.com/citations?user=9EIn52wAAAAJ&hl=en/">Jooyoung Choi*<sup>1</sup></a></h5>
+                </div>
+                <div class="col">
+                    <h5 class="text-center"><a href="https://data.snu.ac.kr/index.php/people/">Yongsung Kim<sup>2</sup></a></h5>
+                </div>
+            </div>
+            <div class="row authors">
+                <div class="col">
+                    <h5 class="text-center"><a href="https://minjunsz.github.io/">Minjun Park<sup>2</sup></a></h5>
+                </div>
+                <div class="col">
+                    <h5 class="text-center"><a href="https://data.snu.ac.kr/index.php/people/">Chaehun Shin<sup>1</sup></a></h5>
+                </div>
+                <div class="col">
+                    <h5 class="text-center"><a class="text-center" href="https://data.snu.ac.kr/index.php/people/">Sungroh Yoon†<sup>1,2</sup></a></h5>
+                </div>
+                <!-- <div class="col">
+                    <h5 class="text-center"><a class="text-center" href="https://mai-t-long.com/">Long Mai<sup>1</sup></a></h5>
+                </div>
+                <div class="col">
+                    <h5 class="text-center"><a class="text-center" href="https://likojack.github.io/kejieli/#/home">Kejie Li<sup>1</sup></a></h5>
+                </div>
+                <div class="col">
+                    <h5 class="text-center"><a class="text-center" href="https://mv-dream.github.io/">Xiao Yang<sup>1</sup></a></h5>
+                </div> -->
+            </div>
+            <div class="row affiliations">
+                <div class="col">
+                    <h6 class="text-center"><a class="text-center"><sup>1</sup>Department of Electrical and Computer Engineering, <br>Seoul National University</a></h6>
+                </div>
+                <div class="col">
+                    <h6 class="text-center"><a class="text-center"><sup>2</sup>Interdisciplinary Program in Artificial Intelligence, <br>Seoul National University</a></h6>
+                </div>
+<!--                 <div class="col">
+                    <h6 class="text-center"><a class="text-center"><sup>2</sup>University of California San Diego</a></h6>
+                </div> -->
+            </div>
+        </div>
         <div class="buttons" style="margin-top: 8px; margin-bottom: 8px;">
-            <a class="btn btn-light" role="button" href="">
+            <a class="btn btn-light" role="button" href="https://arxiv.org/abs/2312.01129">
                 <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
                     <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z"></path>
                 </svg>Paper
@@ -58,7 +102,7 @@
                 </svg>
                 Project
             </a>
-            <a class="btn btn-light" role="button" href="">
+            <a class="btn btn-light" role="button" href="https://github.com/oyt9306/ControlDreamer">
                 <svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 
                             1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 
@@ -83,13 +127,21 @@
         </div> -->
     </div>
     <div class="highlight-clean" style="padding-bottom: 10px;">
+    <div class="container" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <p> * These authors contributed equally to this work, † Corresponding author
+                </p>
+            </div>
+        </div>
+    </div>
     <hr class="divider">
     <div class="container" style="max-width: 768px;">
         <div class="row">
             <div class="col-md-12">
                 <h2>Abstract</h2>
                 <p>
-                    Recent advancements in Text-to-3D technologies have significantly contributed to the automation and democratization of 3D content creation. Building upon these developments, we aim to address the limitations of current 2D lifting methods in achieving consistent and photorealistic 3D model editing. We introduce a novel approach by training a multi-view ControlNet on a carefully curated corpus of $100K$ refined texts. This multi-view ControlNet is then integrated into our editing pipeline, ControlDreamer, significantly enhancing the style editing of 3D models. Additionally, we present a comprehensive benchmark for 3D style editing, encompassing a broad range of subjects, including objects, animals, and characters, to further facilitate diverse 3D scene generation. Our comparative analysis reveals that this new pipeline outperforms existing 3D editing techniques, achieving state-of-the-art results as evidenced by human evaluations and CLIP score metrics.
+                    Recent advancements in Text-to-3D technologies have significantly contributed to the automation and democratization of 3D content creation. Building upon these developments, we aim to address the limitations of current 2D lifting methods in achieving consistent and photorealistic 3D model editing. We introduce a novel approach by training a multi-view ControlNet on a carefully curated corpus of 100K refined texts. This multi-view ControlNet is then integrated into our editing pipeline, ControlDreamer, significantly enhancing the style editing of 3D models. Additionally, we present a comprehensive benchmark for 3D style editing, encompassing a broad range of subjects, including objects, animals, and characters, to further facilitate diverse 3D scene generation. Our comparative analysis reveals that this new pipeline outperforms existing 3D editing techniques, achieving state-of-the-art results as evidenced by human evaluations and CLIP score metrics.
                 </p>
             </div>
         </div>
@@ -299,6 +351,20 @@
         </div>
     </div>
     </div> -->
+    <hr class="divider">
+    <div class="container" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Citation</h2>
+                <code>
+                    @article{oh2023controldreamer,<br>
+                    &nbsp; author = {Oh, Yeongtak and Choi, Jooyoung and Kim, Yongsung and Park, Minjun and Shin, Chaehun and Yoon, Sungroh},<br>
+                    &nbsp; title  = {ControlDreamer: Stylized 3D Generation with Multi-View ControlNet},<br>
+                    &nbsp; journal = {arXiv:2312.01129},<br>
+                    &nbsp; year   = {2023},<br>
+                }</code></div>
+        </div>
+    </div>
 
     <hr class="divider">
     <div class="container" style="max-width: 768px;">
